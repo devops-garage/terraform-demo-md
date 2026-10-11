@@ -9,5 +9,5 @@ variable "environment" {
  
 variable "bucket_prefix" {
   type    = string
-  default 
+  default = testing
 }
