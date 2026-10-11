@@ -8,6 +8,7 @@ resource "aws_s3_bucket" "demo" {
     Environment = var.environment
     ManagedBy   = "terraform-cloud"
     Org        = "DevOps"
+    Dep        = "Engineering"
   }
 }
  
